@@ -1,0 +1,30 @@
+header {
+    display:flex;
+    justify-content: center;
+}
+#drawing-pad .row div {
+    width : 20px;
+    height : 20px;
+    border : solid black 1px;
+}
+#drawing-pad .row {
+    display:flex;
+
+    
+}
+
+
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+button {
+    width: 100px;
+    height : 25px;
+    margin: auto;
+}
